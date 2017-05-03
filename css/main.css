@@ -32,6 +32,12 @@ a:hover {
   color: #E95853;
 }
 
+.container {
+  width: 100%
+  max-width:1200px;
+  margin: 0px auto;
+}
+
 .link {
   font-weight: 700;
   padding: 21px;
@@ -109,11 +115,11 @@ header {
   background-size: cover; /*Cubre todo el tamaño del contenedor*/
   height: 554px; /*Altura de nuestro home*/
   text-align: center; /*Alineación al centro*/
-  margin-top: 60px; /*Darle un margen en la parte de arriba*/
 }
 
 #work .container {
   color: black;
+  padding: 30px;
 }
 
 h4 {
