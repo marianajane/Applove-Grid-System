@@ -10,6 +10,19 @@
   margin-top: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
 .text-uppercase {
   text-transform: uppercase;
 }

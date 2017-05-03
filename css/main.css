@@ -66,7 +66,7 @@ header {
 
 #home .container {
   color: white;
-  padding: 70px; /*Relleo de 70px e todoslos lados*/
+  padding: 30px; /*Relleo de 70px de todos los lados*/
 }
 
 .text-home {
@@ -89,7 +89,7 @@ header {
   background-color: #F17C72;
   text-align: center;
   color: #fff;
-  padding: 70px 7px;
+  padding: 30px 7px;
 }
 
 .box-services {
@@ -103,10 +103,38 @@ header {
   letter-spacing: 2px;
 }
 
+#work {
+  background-position: center; /*posicionaimagen al centro*/
+  background-repeat: no-repeat; /*No repite imagen de fondo*/
+  background-size: cover; /*Cubre todo el tamaño del contenedor*/
+  height: 554px; /*Altura de nuestro home*/
+  text-align: center; /*Alineación al centro*/
+  margin-top: 60px; /*Darle un margen en la parte de arriba*/
+}
+
+#work .container {
+  color: black;
+}
+
+h4 {
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.text-work {
+  font-size: 35px;
+  text-align: center;
+}
+
+.work-img {
+  width: 100%;
+}
+
 footer {
   text-align: center;
   height: 70px;
   background: #373B47;
   color: white;
   padding-top: 7px;
+  margin-right: 0;
 }
